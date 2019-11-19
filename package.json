@@ -8,7 +8,7 @@
         "npm": "6.9.0"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start ": "nodemon index.js"
     },
     "repository": {
         "type": "git",
@@ -21,6 +21,8 @@
     },
     "homepage": "https://github.com/Irtiola/reactbot#readme",
     "dependencies": {
+        "body-parser": "^1.19.0",
+        "dialogflow": "^0.14.1",
         "express": "^4.17.1"
     }
 }
